@@ -70,6 +70,9 @@ app.add_url_rule('/utils/cnR2ZV9yYW5kb21fNA/', 'utils4', view_func=utils.random4
 @app.route('/cease_and_desist_atresmedia')
 def cease_and_desist_atresmedia():
 	return render_template('cease_and_desist_atresmedia.html')
+@app.route('/dep-mitele')
+def dep-mitele():
+	return render_template('dep-mitele.html')
 
 # Examples list page
 #app.add_url_rule('/examples', 'list_examples', view_func=views.list_examples, methods=['GET', 'POST'])
